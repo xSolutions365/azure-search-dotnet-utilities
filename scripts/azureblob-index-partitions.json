@@ -1,0 +1,14 @@
+{
+  "endpoint": "https://lgsco-search.search.windows.net",
+  "indexName": "azureblob-index",
+  "fieldName": "metadata_storage_last_modified",
+  "totalDocumentCount": 116,
+  "partitions": [
+    {
+      "upperBound": "2030-01-01T00:00:00+00:00",
+      "lowerBound": "1970-01-01T00:00:00+00:00",
+      "documentCount": 116,
+      "filter": "metadata_storage_last_modified ge 1970-01-01T00:00:00.0000000+00:00 and metadata_storage_last_modified le 2030-01-01T00:00:00.0000000+00:00"
+    }
+  ]
+}
