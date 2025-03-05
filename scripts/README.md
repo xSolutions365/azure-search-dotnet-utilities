@@ -35,7 +35,7 @@ az storage blob upload-batch -d <your-container-name> -s data/processed-case-fil
 ```
 
 5. **Process Using Azure OpenAI**:
-   - Once the data is uploaded, a function will automatically pick up the event, process it using Azure OpenAI, and output events to blob storage. For more details, refer to the [lgsco-event-extraction repository](https://github.com/xSolutions365/lgsco-event-extraction).
+   - Once the data is uploaded, a function will automatically pick up each case document, process it using Azure OpenAI, and output **events** to blob storage. For more details, refer to the [lgsco-event-extraction repository](https://github.com/xSolutions365/lgsco-event-extraction).
 
 ## Output
 
